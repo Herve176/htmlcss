@@ -1,0 +1,28 @@
+.parent{
+    display: flex;  /*make element align horizoly*/
+    /*flex-direction: column;*/ /*define how it is organise*/
+    justify-content: space-between;
+    
+
+
+}
+#yes,#ok,#ja{
+   
+    font-size: 40px;
+    opacity: 0.8;
+}
+#ok{
+    color: red;
+    
+}
+#yes{
+    color: blue;
+    
+}
+#ok:hover{
+    transform: scale(2);
+}
+#ja{
+    color:green;
+    
+}
