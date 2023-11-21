@@ -6,6 +6,10 @@
 
 
 }
+.parent2{
+    display: flex;
+    justify-content: space-between;
+}
 #yes,#ok,#ja{
 
     font-size: 40px;
