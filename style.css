@@ -7,7 +7,7 @@
 
 }
 #yes,#ok,#ja{
-   
+
     font-size: 40px;
     opacity: 0.8;
 }
@@ -25,4 +25,21 @@
 #ja{
     color:green;
     
+}
+.circle{
+    background-color: blue;
+
+
+}
+.triangle{
+    background-color: blue;
+}
+.sqare{
+    background-color: blue;
+    height: 50%;
+    width: 50%;
+    padding-top: 100%;
+}
+.rectangle{
+    background-color: blue;
 }
