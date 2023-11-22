@@ -1,14 +1,22 @@
 .parent{
     display: flex;  /*make element align horizoly*/
     /*flex-direction: column;*/ /*define how it is organise*/
-    justify-content: space-between;
+    
     
 
 
 }
 .parent2{
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    margin-left: 5% ;
+    
+    
+}
+.parent3{
+    display: flex;
+    margin-left: 5%;
+    
 }
 #yes,#ok,#ja{
 
@@ -32,29 +40,31 @@
 }
 .circle{
     background-color: black;
-    height: 100%;
-    width: 100px;
-    border-radius: 100%;
-    padding-top: 10%;
-    display: inline-block;
+    width: 200px;
+    height: 200px;
+    padding: 5%;
+    margin: 5% 0 ;
 }
-.triangle{
-    
+.triangle {
     width: 0;
     height: 0;
-    border-left: 25px solid transparent;
-    border-right: 25px  solid transparent;
-    border-bottom: 50px solid rgb(255, 0, 174) ;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 270px solid rgb(255, 0, 174);
+    margin: auto;
 }
 .square{
     background-color: blue;
-    width: 12%;
-    padding-top: 9%;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    padding: 5%;
+    margin: 5% 0;
 }
 .rectangle{
     background-color: yellow;
-    height: 9%;
-    width: 9%;
-    padding-top: 7%;
-    
+    height: 100px;
+    width: 200px;
+    margin: auto;
+    padding: 5%;
 }
